@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.title {
+  font-family: 'Cabin', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background-image: linear-gradient(-90deg, white, rgb(243, 63, 63));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#quoteDisplay {
+  font-size: 2rem;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 430px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  border-radius: 5px;
+  height: 75px;
+  width: 250px;
+  font-size: 2rem;
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  bottom:100px;
+  font-weight: bold;
+  outline: none;
+}
+.btn1:focus {
+  outline: none;
+}
+.btn2 {
+  border-radius: 5px;
+  height: 47px;
+  width: 150px;
+  font-size: 1.5rem;
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  bottom:52px;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+}
+
+@media (min-width: 340px)and  (max-width: 812px){
+#quoteDisplay {
+  font-size: 1.5rem;
+}}
+
+@media (min-width: 340px)and  (max-width: 812px){ .title{
+  font-size:3.0rem;
+}}
