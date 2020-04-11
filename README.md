@@ -1,4 +1,3 @@
 # Inspirational-Quote-Generator
  
-An inspirational quote generator designed to motivate you to chase your goals. I created this website with HTML 5, CSS, and JavaScript.
-In Spanish and English.
+A randomized quote  generator built to inspire and motivate people towards their goals.  I used HTML 5, CSS, BootStrap 4 and JavaScript. In Spanish and English now.
